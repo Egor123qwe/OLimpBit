@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Pixsel';  
+    src: url('../../../FontStyls/MainStyle.ttf') format("truetype");
+}
+
+.Footer {
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    height: 6vh;
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}
+
+.StartButton {
+    position: absolute;
+    left: 6px;
+    bottom: 4px;
+    width: 13vh;
+    height: 80%;
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E, inset 2px 2px 0px #B1B1B1;
+}
+
+.WindowsLogo {
+    padding: 5%;
+    position: absolute;
+    left: 1%;
+    width: 3.5vh;
+    bottom: -0.1vh;
+}
+
+.WindowsLable {
+    font-family: 'Pixsel2', arial;
+    font-size: 2.5vh;
+    position: absolute;
+    bottom: 0.5vh;
+}
+
+.AddInfo {
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+    width: 25vh;
+    height: 80%;
+    background: #C3C3C3;
+    box-shadow: inset 2px 2px 0px #262626, inset -2px -2px 0px #F0F0F0, inset 4px 4px 0px #7E7E7E;
+}
+
+.BsuirLogo {
+    position: relative;
+    padding: 5%;
+    height: 55%;
+}
+
+.KsisLogo {
+    height: 75%;
+    position: relative;
+    bottom: 15%;
+}
+
+.Years {
+    font-family: 'Pixsel', arial;
+    font-size: 2.2vh;
+    position: relative;
+    padding-left: 5%;
+    bottom: 35%;
+}

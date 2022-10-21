@@ -1,0 +1,33 @@
+.Link {
+    text-decoration: none;
+    position: absolute;
+    bottom: 7vh;
+    right: 2vw;
+}
+
+.Error {
+    position: relative;
+    z-index: 99;
+}
+
+.Olimpiad {
+    position: relative;
+    z-index: 99;
+}
+
+.Blur {
+    position: relative;
+    z-index: 1;
+}
+
+.FirstMenu {
+    padding: 0.6vh;
+    position: absolute;
+    bottom: 6vh;
+    z-index: 999;
+    width: 15vw;
+    min-width: 200px;
+    height: 35vh;
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}

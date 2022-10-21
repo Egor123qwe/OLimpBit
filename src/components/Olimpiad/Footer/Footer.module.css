@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Pixsel2';  
+    src: url('../../../FontStyls/MainStyle.ttf') format("truetype");
+    font-style: normal;
+}
+
+.Footer {
+    grid-area: Footer;
+    display: grid;
+    grid-template-areas: 
+    "leftField rightField";
+    grid-template-columns: 2fr 5fr;
+    grid-column-gap: 10px;
+}
+
+.leftField {
+    grid-area: leftField;
+    height: 70%;
+    position: relative;
+    top: 27%;
+    font-size: 20px;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #7E7E7E;
+}
+.rightField {
+    grid-area: rightField;
+    height: 70%;
+    position: relative;
+    top: 27%;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #7E7E7E;
+}
+.lable {
+    font-family: 'Pixsel2', arial;
+    position: relative;
+    left: 1vh;
+}

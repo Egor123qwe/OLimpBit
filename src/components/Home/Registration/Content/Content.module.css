@@ -1,0 +1,143 @@
+.Content {
+    grid-area: 'content';
+    background: #C3C3C3;
+    padding: 10px;
+    font-family: 'Pixsel', arial;
+}
+
+.InputBox {
+    padding-top: 0.5vh;
+    padding-bottom: 1vh;
+    min-height: 240px;
+    background-color: #C3C3C3;
+}
+
+.BoolBox {
+    min-height: 165px;
+    background: #C3C3C3;
+    border: 2px solid #8E8E8E;
+    height: 40%;
+    width: calc(100% - 4px);
+}
+
+.errorMessage {
+    color:#000EA3;
+    font-family: 'Pixsel', arial;
+
+}
+
+.Line {
+    width: 100%;
+    padding-top: 10px;
+}
+
+.checkbox {
+    border: none;
+    background: #FFFFFF;
+    box-shadow: inset 1px 1px 0px #7E7E7E, inset -1px -1px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -2px -2px 0px #B1B1B1;
+}
+
+.BoolBox2 {
+    width: calc(100% - 24px);
+    height: calc(100% - 24px);;
+    padding: 10px;
+    border: 2px solid #FFFFFF;
+}
+
+.input {
+    min-width: 70%;
+    width: 24vw;
+    height: 5%;
+    background: #FFFFFF;
+    box-shadow: inset 2px 2px 0px #262626, inset -2px -2px 0px #F0F0F0, inset 4px 4px 0px #7E7E7E;
+    border: none;
+    font-family: 'Pixsel', arial;
+    font-size: 1.7vh;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.InputName {
+    width: 20%;
+    font-size: 100%;
+    display:inline-block
+}
+
+.checkbox {  
+    background: #FFFFFF;
+    box-shadow: inset 1px 1px 0px #7E7E7E, inset -1px -1px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -2px -2px 0px #B1B1B1;
+}
+
+.InputName1 {
+    padding-left: 2%;
+    width: 10%;
+    font-size: 100%;
+    min-width: 40px;
+    display:inline-block;
+}
+
+.input2 {
+    min-width: 100px;
+    width: 35%;
+    height: 2.5vh;
+    background: #FFFFFF;
+    box-shadow: inset 2px 2px 0px #262626, inset -2px -2px 0px #F0F0F0, inset 4px 4px 0px #7E7E7E;
+    border: none;
+    font-family: 'Pixsel', arial;
+    font-size: 1.7vh;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.input3 {
+    width: 20%;
+    height: 2.5vh;
+    background: #FFFFFF;
+    box-shadow: inset 2px 2px 0px #262626, inset -2px -2px 0px #F0F0F0, inset 4px 4px 0px #7E7E7E;
+    border: none;
+    font-family: 'Pixsel', arial;
+    font-size: 1.7vh;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.lable {
+    font-size: 16px;
+}
+
+.button {
+    position: relative;
+    font-family: 'Pixsel', arial;
+    outline: none;
+    text-decoration: none;
+    right: -70%;
+    top: 3%;
+    height: 4vh;
+    width: 20%;
+    min-width: 110px;
+    padding: 0px;
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+    border: none;
+}
+
+.button:active {
+    padding: 1.6%;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -4px -4px 0px #7E7E7E;
+}
+
+.ContentBox {
+    display: grid;
+    grid-template-areas: 
+    "leftside rightside";
+    grid-template-columns: 60% 40%;
+}
+
+.leftSide {
+    grid-area: "leftside";
+}
+
+.RightSide {
+    grid-area: "rightside";
+}
+

@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Pixsel';  
+    src: url('../../../FontStyls/../../FontStyls/MainStyle.ttf') format("truetype");
+}
+
+.Image img {
+    padding: 5px;
+    height: 20%;
+}
+
+.border {
+    padding-bottom: 10px;
+}
+
+.DecktopIcon {
+    padding-bottom: 15px;
+    width: 170px;
+    text-align: center;
+    font-style: normal;   
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.Image {
+    text-align: center;
+}
+
+.text {
+    font-family: 'Pixsel', arial;
+    font-size: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.CoousingText {
+    font-family: 'Pixsel', arial;
+    font-size: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #000EA3;
+    color: aliceblue;
+}
+
+.CoousingImg img {
+    border: 1px dashed #000000;
+    padding: 5px;
+    height: 20%;
+}

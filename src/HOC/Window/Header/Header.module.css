@@ -1,0 +1,173 @@
+.Header {
+    grid-area: header;
+    background-color: #C3C3C3;
+    display: grid;
+    grid-template-areas: 
+    "MaiHeader"
+    "Munu";
+    grid-template-rows: 50% 50%;
+    height: 10vh;
+}
+
+.MainHeader {
+    position: relative;
+    padding: 8px;
+    grid-area: MaiHeader;
+    background-color: #02007F;
+    color: white;
+    display: grid;
+    grid-template-areas: 
+    "WindowInfo ButtonPack";
+}
+
+.BlurMainHeader {
+    position: relative;
+    padding: 8px;
+    grid-area: MaiHeader;
+    background-color: #8E8E8E;
+    color: white;
+    display: grid;
+    grid-template-areas: 
+    "WindowInfo ButtonPack";
+}
+
+.WindowInfo {
+    grid-area: "WindowInfo";
+    position: relative;
+}
+
+.MainHeader img {
+    position: absolute;
+    height: 100%;
+}
+
+.BlurMainHeader img {
+    position: absolute;
+    height: 100%;
+}
+
+.Lable {
+    position: absolute;
+    left: 5vh;
+    font-family: 'Pixsel', arial;
+    font-size: 2.3vh;
+}
+
+.ButtonPack {
+    position: absolute;
+    top: 0.7vh;
+    right: 8px;
+    grid-area: "ButtonPack";
+    display: grid;
+    grid-template-areas: 
+    "CollapseButton ExpandButton SwitchOffButton";
+    grid-template-columns: 3.5vh 3.5vh 3.5vh;
+    grid-template-rows: 3.5vh;
+    grid-column-gap: 0.5vh;
+}
+.ButtonPackMini {
+    position: absolute;
+    top: 0.7vh;
+    right: 2vw;
+    grid-area: "ButtonPack";
+    display: grid;
+    grid-template-areas: 
+    "SwitchOffButton";
+    grid-template-columns: 3.5vh;
+    grid-template-rows: 3.5vh;
+}
+
+
+.CollapseButton {
+    background-size: 100% 100%;
+    grid-area: "CollapseButton";
+    border: none;
+    background-image: url('./../../../Images/CollapseButton.svg');
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}
+.CollapseButton:active {
+    position: relative;
+    top: 1px;
+    box-shadow: inset -2px -2px 0px #7E7E7E, inset 2px 2px 0px #262626, inset -2px -2px 0px #F0F0F0;
+}
+
+
+.SwitchOffButton {
+    background-size: 100% 100%;
+    grid-area: "SwitchOffButton";
+    border: none;
+    background-image: url('./../../../Images/SwitchOffButton.svg');
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}
+.SwitchOffButton:active {
+    position: relative;
+    top: 1px;
+    box-shadow: inset -2px -2px 0px #7E7E7E, inset 2px 2px 0px #262626, inset -2px -2px 0px #F0F0F0;
+}
+
+
+.ExpandButton {
+    background-size: 100% 100%;
+    grid-area: "ExpandButton";
+    border: none;
+    background-image: url('./../../../Images/ExpandButton.svg');
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}
+.ExpandButtonUseful {
+    background-size: 100% 100%;
+    grid-area: "ExpandButton";
+    border: none;
+    background-image: url('./../../../Images/UslessButton.svg');
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}
+.ExpandButton:active {
+    position: relative;
+    top: 1px;
+    box-shadow: inset -2px -2px 0px #7E7E7E, inset 2px 2px 0px #262626, inset -2px -2px 0px #F0F0F0;
+}  
+
+
+@media screen and (max-height: 2000px) {
+    .MenuItem {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-height: 1200px) {
+    .MenuItem {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-height: 900px) {
+    .MenuItem {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .MenuItem {
+        font-size: 18px;
+    }
+}
+
+.Menu {
+    padding: 0.5vh;
+    padding-left: 1vh;
+    position: relative;
+    grid-area: Munu;
+    box-shadow: inset 0px -2px 0px #F0F0F0, inset 0px 0px 0px #F0F0F0, inset 0px -4px 0px #7E7E7E;
+}
+
+.MenuItem {
+    font-family: 'Pixsel2', arial;
+    font-size: 2.5vh;
+    padding-right: 2vh;
+    position: relative;
+    bottom: 0px;
+}
+
+
+
+
+

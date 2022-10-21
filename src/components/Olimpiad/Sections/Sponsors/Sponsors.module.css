@@ -1,0 +1,31 @@
+.Sponsors {
+    grid-area: content;
+    background: #FFFFFF;
+    box-shadow: inset 2px 2px 0px #262626, inset -2px -2px 0px #F0F0F0, inset 4px 4px 0px #7E7E7E;
+    padding: 15px;
+    font-family: 'Pixsel', arial;
+    overflow: auto;
+}
+
+.GeneralText {
+    line-height: 1.7;
+    font-size: 2.5vh;
+}
+
+h1 {
+    font-size: 4vh;
+}
+
+.AboutOlimpiad::-webkit-scrollbar {
+    width: 4.5vh;
+}
+
+.AboutOlimpiad::-webkit-scrollbar-track {
+    background: url('./../../../../Images/ScrollBack.png');
+    transform: rotate(-90deg);
+}
+
+.AboutOlimpiad::-webkit-scrollbar-thumb {
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}

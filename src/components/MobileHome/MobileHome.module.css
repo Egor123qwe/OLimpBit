@@ -1,0 +1,257 @@
+.MobileHome {
+    padding: 1% 1% 1% 1%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #C3C3C3;
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "Content"
+    "SponsorLable"
+    "SponsorsKit"
+    "Registration"
+    "Footer";
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 20% 10% 20% 10% 10%;
+    font-family: 'Pixsel', arial;
+}
+
+
+.header {
+    display: grid;
+    grid-template-areas: 
+    "About Logo";
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 100%;
+}
+.AboutOlimpiad {
+    position: relative;
+    font-size: 2.5vw;
+    grid-area: "About";
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}
+
+.AboutOlimpiad img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+}
+
+.AboutOlimpiadLable {
+    position: absolute;
+    bottom: 3px;
+    left: 0.8vw;
+}
+
+.Logo {
+    position: relative;
+    grid-area: "Logo";
+    color: #FFFFFF;
+    background-color:#008282;
+}
+
+.LogoPart {
+    font-size: 3vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.LogoPart img {
+    width: 20%;
+    padding-left: 40%;
+}
+
+
+.Content {
+    padding-right: 1%;
+    grid-area: "Content";
+    background-color: #C3C3C3;
+    display: grid;
+    grid-template-areas: 
+    "Ways Diaractions";
+    grid-template-columns: 50% 50%;
+}
+.Ways {
+    padding: 2%;
+    grid-area: "Ways";
+    display: grid;
+    grid-template-areas: 
+    "Way1 Way2"
+    "Way3 Way4";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-column-gap: 2%;
+    grid-row-gap: 2%;
+}
+.Way1 {
+    position: relative;
+    grid-area: "Way1";
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}
+.Way2 {
+    position: relative;
+    grid-area: "Way2";
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}
+.Way3 {
+    position: relative;
+    grid-area: "Way3";
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}
+.Way4 {
+    position: relative;
+    grid-area: "Way4";
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}
+
+.WayLable {
+    font-size: 3vw;
+    position: absolute;
+    bottom: 3px;
+    left: 0.8vw;
+}
+.Diaractions {
+    background-color: cadetblue;
+    grid-area: "Diaractions";
+    background: url('../../Images/Navbar1/DirBack.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+    position: relative;
+}
+
+.DiaractionsLable {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.SponsorLable {
+    position: relative;
+    padding: 2vh;
+    padding-left: 35vw;
+    font-size: 3vh;
+    grid-area: "SponsorLable";
+    background: #C3C3C3;
+}
+
+.SponsorL {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+}
+
+.SponsorsKit {
+    padding-right: 2%;
+    grid-area: "SponsorsKit";
+    display: grid;
+    grid-template-areas: 
+    "Sponsor1 Sponsor2"
+    "Sponsor3 Sponsor4";
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-column-gap: 1%;
+    grid-row-gap: 1%;
+    padding-bottom: 1%;
+}
+
+.SponsorsKit img {
+    height: 7vh;
+}
+.Sponsor1 {
+    padding: 1vh;
+    padding-left: 3vh;
+    grid-area: "Sponsor1";
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}
+.Sponsor2 {
+    padding: 1vh;
+    padding-left: 3vh;
+    grid-area: "Sponsor2";
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}
+.Sponsor3 {
+    padding: 1vh;
+    padding-left: 3vh;
+    grid-area: "Sponsor3";
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}
+.Sponsor4 {
+    padding: 1vh;
+    padding-left: 3vh;
+    grid-area: "Sponsor4";
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}
+
+
+
+.Registration {
+    grid-area: "Registration";
+    text-decoration: none;
+    color:#262626;
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+    font-size: 2.6vh;;
+    font-family: 'Pixsel', arial;
+}
+
+.Registration:active {
+    padding: 8px;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -4px -4px 0px #7E7E7E;
+    font-family: 'Pixsel', arial;
+}
+
+.Footer {
+    grid-area: "Footer";
+    background: #C3C3C3;
+    padding-top: 1%;
+}
+
+.Years {
+    font-size: 2.7vh;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.KsisLogo {
+    display: inline-block;
+    width: 7vh;
+    height: 7vh;
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+    background-image: url('../../Images/KsisLogo.png');
+    background-repeat: no-repeat;
+    background-size: 80% 80%;
+    background-position: center center;
+}
+.BSUIRLogo {
+    position: relative;
+    left: 1%;
+    display: inline-block;
+    width: 7vh;
+    height: 7vh;
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+    background-image: url('../../Images/BsuirLogo.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}

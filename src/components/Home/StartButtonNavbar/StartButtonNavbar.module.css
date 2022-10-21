@@ -1,0 +1,104 @@
+.FirstIcons {
+    height: 6vh;
+    
+}
+
+.FirstIconsCoosing {
+    height: 6vh;
+    background-color: #000EA3;
+}
+
+.FirstMainIcons {
+    height: 6vh;
+    box-shadow: inset 0px 0px 0px #262626, inset 0px 2px 0px #7E7E7E, inset 0px 4px 0px #F0F0F0;
+}
+
+.FirstIconsImage {
+    padding: 0.5vh;
+    height: 4.5vh;
+}
+
+.Text {
+    position: relative;
+    bottom: 25%;
+    left: 1vh;
+    font-size: 2vh;
+    font-family: 'Pixsel', arial;
+}
+
+.TextCoosing {
+    position: relative;
+    bottom: 25%;
+    color: #F0F0F0;
+    left: 1vh;
+    font-size: 2vh;
+    font-family: 'Pixsel', arial;
+}
+
+.FirstIconsTurn {
+    position: absolute;
+    right: 0px;
+    padding: 2vh;
+    height: 3vh;
+}
+
+.SecondIcons {
+    height: 4vh;
+}
+
+.SecondIconsCoosing {
+    height: 4vh;
+    background-color: #000EA3;
+}
+
+.SecondIconsImage {
+    padding-left: 5px;
+    height: 3.5vh;
+}
+
+.Text2 {
+    position: relative;
+    bottom: 35%;
+    left: 1vh;
+    font-size: 1.7vh;
+    font-family: 'Pixsel', arial;
+}
+.Text2Coosing {
+    position: relative;
+    bottom: 35%;
+    color:#F0F0F0;
+    left: 1vh;
+    font-size: 1.7vh;
+    font-family: 'Pixsel', arial;
+}
+
+.SecondNavbar {
+    padding: 5px;
+    position: relative;
+    background-color: aqua;
+    width: 10vw;
+    min-width: 150px;
+    height: 11.5vh;
+    left: 15.2vw;
+    bottom: 36.6vh;
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}
+.SecondNavbarMini {
+    padding: 5px;
+    position: relative;
+    background-color: aqua;
+    width: 10vw;
+    min-width: 150px;
+    height: 11.5vh;
+    left: 200px;
+    bottom: 36.6vh;
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}
+
+
+.FirstNavbar {
+    position: relative;
+    height: 35vh;
+}

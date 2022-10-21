@@ -1,0 +1,37 @@
+.Navbar {
+    grid-area: Navbar;
+    padding: 15px;
+    background: #FFFFFF;
+    box-shadow: inset 2px 2px 0px #262626, inset -2px -2px 0px #F0F0F0, inset 4px 4px 0px #7E7E7E;
+}
+
+.Link {
+    color: #262626;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Pixsel', arial;
+    padding: 5px;
+    white-space: nowrap;
+}
+
+.Item {
+    padding-bottom: 5px;
+}
+
+.Coosing {
+    background-color: #000EA3;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Pixsel', arial;
+    padding: 5px;
+    white-space: nowrap;
+}
+.SecondLevelItems {
+    padding-left: 20px;
+    padding-top: 0px;
+}
+
+.SecondLevelItem {
+    padding-top: 10px;
+}

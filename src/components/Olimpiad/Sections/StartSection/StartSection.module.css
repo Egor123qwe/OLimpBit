@@ -1,0 +1,83 @@
+.StartSection {
+    grid-area: content;
+    background: #FFFFFF;
+    box-shadow: inset 2px 2px 0px #262626, inset -2px -2px 0px #F0F0F0, inset 4px 4px 0px #7E7E7E;
+    padding: 15px;
+    font-family: 'Pixsel', arial;
+    overflow: auto;
+}
+
+.GeneralText {
+    line-height: 1.7;
+    font-size: 2.5vh;
+}
+
+.Logo {
+    font-family:'Courier New', Courier, monospace;
+    white-space: pre-wrap;
+}
+
+
+.item1 {
+    height: 25px;
+}
+
+.item2 {
+
+    height: 25px;
+}
+
+
+.MenuItem {
+    font-size: 35px;
+}
+
+@media screen and (min-width: 0px) {
+    .item1 {
+        height: 10px;
+        font-size: 10px;
+    }
+    .item2 {
+        height: 10px;
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .item1 {
+        height: 15px;
+        font-size: 15px;
+    }
+    .item2 {
+        height: 15px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .item1 {
+        height: 25px;
+        font-size: 25px;
+    }
+    .item2 {
+        height: 25px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 4000px) {
+    .item1 {
+        height: 25px;
+        font-size: 25px;
+    }
+    .item2 {
+        height: 25px;
+        font-size: 25px;
+    }
+}
+
+
+h1 {
+    font-size: 4vh;
+}

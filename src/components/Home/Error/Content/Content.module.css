@@ -1,0 +1,34 @@
+.Content {
+    height: 10vh;
+    min-height: 100px;
+    position: relative;
+}
+
+.Text {
+    font-family: 'Pixsel', arial;
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.button {
+    position: absolute;
+    font-family: 'Pixsel', arial;
+    outline: none;
+    text-decoration: none;
+    right: 35%;
+    bottom: 13%;
+    height: 35px;
+    width: 20%;
+    min-width: 110px;
+    padding: 0px;
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+    border: none;
+}
+
+.button:active {
+    padding: 8px;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -4px -4px 0px #7E7E7E;
+}
+

@@ -1,0 +1,12 @@
+.Olimpiad {
+    background-color: #C3C3C3;
+    display: grid;
+    grid-template-areas: 
+    "Navbar content"
+    "Footer Footer";
+    grid-template-rows: 82.5fr 6.5fr;
+    grid-template-columns: 2fr 10fr;
+    grid-column-gap: 15px;
+    padding: 3px;
+    box-shadow: inset -2px -4px 0px #7E7E7E, inset 2px 2px 0px #F0F0F0;
+}
