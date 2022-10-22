@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "9d94438f58b5f4f5f46a",
-    "url": "/OLimpBit/static/css/main.754a0bcc.chunk.css"
+    "revision": "c636bb5e7a427959182c",
+    "url": "/OLimpBit/static/css/main.3f3ff78a.chunk.css"
   },
   {
-    "revision": "9d94438f58b5f4f5f46a",
-    "url": "/OLimpBit/static/js/main.9d94438f.chunk.js"
+    "revision": "c636bb5e7a427959182c",
+    "url": "/OLimpBit/static/js/main.c636bb5e.chunk.js"
   },
   {
-    "revision": "e99a63163aa1794106dd",
-    "url": "/OLimpBit/static/js/1.e99a6316.chunk.js"
+    "revision": "f9532f5f8210c92bcdf2",
+    "url": "/OLimpBit/static/js/1.f9532f5f.chunk.js"
   },
   {
     "revision": "97fd4b95f43aee115131",
@@ -20,14 +20,6 @@ self.__precacheManifest = [
     "url": "/OLimpBit/static/media/DirBack.05cc2470.png"
   },
   {
-    "revision": "db8ed3a9bffebf0e422f59580894f149",
-    "url": "/OLimpBit/static/media/SwitchOffButton.db8ed3a9.svg"
-  },
-  {
-    "revision": "bbf99ab7ff61a0abc5f59729a69559bd",
-    "url": "/OLimpBit/static/media/CollapseButton.bbf99ab7.svg"
-  },
-  {
     "revision": "183ea5b66b5ecf2dc42c0ff76890cb35",
     "url": "/OLimpBit/static/media/UslessButton.183ea5b6.svg"
   },
@@ -36,16 +28,24 @@ self.__precacheManifest = [
     "url": "/OLimpBit/static/media/ExpandButton.72d13424.svg"
   },
   {
+    "revision": "db8ed3a9bffebf0e422f59580894f149",
+    "url": "/OLimpBit/static/media/SwitchOffButton.db8ed3a9.svg"
+  },
+  {
+    "revision": "bbf99ab7ff61a0abc5f59729a69559bd",
+    "url": "/OLimpBit/static/media/CollapseButton.bbf99ab7.svg"
+  },
+  {
+    "revision": "e269fccd0a139e3b8f4a2e0ad49428fd",
+    "url": "/OLimpBit/static/media/Minesweeper.e269fccd.svg"
+  },
+  {
     "revision": "2b38b31a60bd6636efeb6e416c0a95ee",
     "url": "/OLimpBit/static/media/MainStyle.2b38b31a.ttf"
   },
   {
     "revision": "15d68ae923195ef48f777555a265a70d",
     "url": "/OLimpBit/static/media/err.15d68ae9.svg"
-  },
-  {
-    "revision": "e269fccd0a139e3b8f4a2e0ad49428fd",
-    "url": "/OLimpBit/static/media/Minesweeper.e269fccd.svg"
   },
   {
     "revision": "be23774f1f82ed2d8e9f01c4de9c3f67",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/OLimpBit/static/media/Paint.d387500a.svg"
   },
   {
-    "revision": "1eb25095af98d8f08435544a442cf295",
+    "revision": "6829e3e4c7342724c67051c01ac483bd",
     "url": "/OLimpBit/index.html"
   }
 ];
