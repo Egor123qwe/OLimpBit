@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "a3fd9cd1260e68e4a1a5",
-    "url": "/OLimpBit/static/css/main.9c984dbd.chunk.css"
+    "revision": "ced526694bd8d5b0f8c5",
+    "url": "/OLimpBit/static/css/main.0fbec67b.chunk.css"
   },
   {
-    "revision": "a3fd9cd1260e68e4a1a5",
-    "url": "/OLimpBit/static/js/main.a3fd9cd1.chunk.js"
+    "revision": "ced526694bd8d5b0f8c5",
+    "url": "/OLimpBit/static/js/main.ced52669.chunk.js"
   },
   {
     "revision": "d42921bb8cf0f6846347",
@@ -24,20 +24,20 @@ self.__precacheManifest = [
     "url": "/OLimpBit/static/media/Minesweeper.e269fccd.svg"
   },
   {
-    "revision": "db8ed3a9bffebf0e422f59580894f149",
-    "url": "/OLimpBit/static/media/SwitchOffButton.db8ed3a9.svg"
-  },
-  {
-    "revision": "72d13424d99921a3af67d8a29da53d73",
-    "url": "/OLimpBit/static/media/ExpandButton.72d13424.svg"
-  },
-  {
     "revision": "183ea5b66b5ecf2dc42c0ff76890cb35",
     "url": "/OLimpBit/static/media/UslessButton.183ea5b6.svg"
   },
   {
+    "revision": "db8ed3a9bffebf0e422f59580894f149",
+    "url": "/OLimpBit/static/media/SwitchOffButton.db8ed3a9.svg"
+  },
+  {
     "revision": "bbf99ab7ff61a0abc5f59729a69559bd",
     "url": "/OLimpBit/static/media/CollapseButton.bbf99ab7.svg"
+  },
+  {
+    "revision": "72d13424d99921a3af67d8a29da53d73",
+    "url": "/OLimpBit/static/media/ExpandButton.72d13424.svg"
   },
   {
     "revision": "2b38b31a60bd6636efeb6e416c0a95ee",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/OLimpBit/static/media/Paint.d387500a.svg"
   },
   {
-    "revision": "69d5eaa3d83e70ce19d6825ac6825fab",
+    "revision": "ae72bbf5f63c702100dbdebb460b0b58",
     "url": "/OLimpBit/index.html"
   }
 ];
