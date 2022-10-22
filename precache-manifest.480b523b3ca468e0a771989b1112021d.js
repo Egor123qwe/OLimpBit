@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c636bb5e7a427959182c",
-    "url": "/OLimpBit/static/css/main.3f3ff78a.chunk.css"
+    "revision": "7b5972f0a236f05385cf",
+    "url": "/OLimpBit/static/css/main.9b4e8778.chunk.css"
   },
   {
-    "revision": "c636bb5e7a427959182c",
-    "url": "/OLimpBit/static/js/main.c636bb5e.chunk.js"
+    "revision": "7b5972f0a236f05385cf",
+    "url": "/OLimpBit/static/js/main.7b5972f0.chunk.js"
   },
   {
     "revision": "f9532f5f8210c92bcdf2",
@@ -20,24 +20,24 @@ self.__precacheManifest = [
     "url": "/OLimpBit/static/media/DirBack.05cc2470.png"
   },
   {
-    "revision": "183ea5b66b5ecf2dc42c0ff76890cb35",
-    "url": "/OLimpBit/static/media/UslessButton.183ea5b6.svg"
-  },
-  {
-    "revision": "72d13424d99921a3af67d8a29da53d73",
-    "url": "/OLimpBit/static/media/ExpandButton.72d13424.svg"
-  },
-  {
-    "revision": "db8ed3a9bffebf0e422f59580894f149",
-    "url": "/OLimpBit/static/media/SwitchOffButton.db8ed3a9.svg"
+    "revision": "e269fccd0a139e3b8f4a2e0ad49428fd",
+    "url": "/OLimpBit/static/media/Minesweeper.e269fccd.svg"
   },
   {
     "revision": "bbf99ab7ff61a0abc5f59729a69559bd",
     "url": "/OLimpBit/static/media/CollapseButton.bbf99ab7.svg"
   },
   {
-    "revision": "e269fccd0a139e3b8f4a2e0ad49428fd",
-    "url": "/OLimpBit/static/media/Minesweeper.e269fccd.svg"
+    "revision": "db8ed3a9bffebf0e422f59580894f149",
+    "url": "/OLimpBit/static/media/SwitchOffButton.db8ed3a9.svg"
+  },
+  {
+    "revision": "183ea5b66b5ecf2dc42c0ff76890cb35",
+    "url": "/OLimpBit/static/media/UslessButton.183ea5b6.svg"
+  },
+  {
+    "revision": "72d13424d99921a3af67d8a29da53d73",
+    "url": "/OLimpBit/static/media/ExpandButton.72d13424.svg"
   },
   {
     "revision": "2b38b31a60bd6636efeb6e416c0a95ee",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/OLimpBit/static/media/Paint.d387500a.svg"
   },
   {
-    "revision": "6829e3e4c7342724c67051c01ac483bd",
+    "revision": "8750af6eeeb8319df0d60a98dcbb7d8e",
     "url": "/OLimpBit/index.html"
   }
 ];
