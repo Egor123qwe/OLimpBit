@@ -1,39 +1,39 @@
 self.__precacheManifest = [
   {
-    "revision": "ced526694bd8d5b0f8c5",
-    "url": "/OLimpBit/static/css/main.0fbec67b.chunk.css"
+    "revision": "146b6be1440d2719c4d0",
+    "url": "/OLimpBit/static/css/main.39484e08.chunk.css"
   },
   {
-    "revision": "ced526694bd8d5b0f8c5",
-    "url": "/OLimpBit/static/js/main.ced52669.chunk.js"
+    "revision": "146b6be1440d2719c4d0",
+    "url": "/OLimpBit/static/js/main.146b6be1.chunk.js"
   },
   {
-    "revision": "d42921bb8cf0f6846347",
-    "url": "/OLimpBit/static/js/1.d42921bb.chunk.js"
+    "revision": "091eecb54b268843d9d7",
+    "url": "/OLimpBit/static/js/1.091eecb5.chunk.js"
   },
   {
     "revision": "97fd4b95f43aee115131",
     "url": "/OLimpBit/static/js/runtime~main.97fd4b95.js"
   },
   {
-    "revision": "05cc24702371c103845c031ff4d24c3b",
-    "url": "/OLimpBit/static/media/DirBack.05cc2470.png"
+    "revision": "6095ece3cf6f03714d8e28d02aa763db",
+    "url": "/OLimpBit/static/media/Art.6095ece3.png"
   },
   {
     "revision": "e269fccd0a139e3b8f4a2e0ad49428fd",
     "url": "/OLimpBit/static/media/Minesweeper.e269fccd.svg"
   },
   {
-    "revision": "183ea5b66b5ecf2dc42c0ff76890cb35",
-    "url": "/OLimpBit/static/media/UslessButton.183ea5b6.svg"
+    "revision": "bbf99ab7ff61a0abc5f59729a69559bd",
+    "url": "/OLimpBit/static/media/CollapseButton.bbf99ab7.svg"
   },
   {
     "revision": "db8ed3a9bffebf0e422f59580894f149",
     "url": "/OLimpBit/static/media/SwitchOffButton.db8ed3a9.svg"
   },
   {
-    "revision": "bbf99ab7ff61a0abc5f59729a69559bd",
-    "url": "/OLimpBit/static/media/CollapseButton.bbf99ab7.svg"
+    "revision": "183ea5b66b5ecf2dc42c0ff76890cb35",
+    "url": "/OLimpBit/static/media/UslessButton.183ea5b6.svg"
   },
   {
     "revision": "72d13424d99921a3af67d8a29da53d73",
@@ -42,6 +42,10 @@ self.__precacheManifest = [
   {
     "revision": "2b38b31a60bd6636efeb6e416c0a95ee",
     "url": "/OLimpBit/static/media/MainStyle.2b38b31a.ttf"
+  },
+  {
+    "revision": "abe905418ca6e8be7c0b2c2c2e598be6",
+    "url": "/OLimpBit/static/media/Kubok.abe90541.png"
   },
   {
     "revision": "15d68ae923195ef48f777555a265a70d",
@@ -84,7 +88,7 @@ self.__precacheManifest = [
     "url": "/OLimpBit/static/media/Paint.d387500a.svg"
   },
   {
-    "revision": "ae72bbf5f63c702100dbdebb460b0b58",
+    "revision": "6db25438dce728fe83ec5f2489a53ab4",
     "url": "/OLimpBit/index.html"
   }
 ];
