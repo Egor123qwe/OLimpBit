@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "146b6be1440d2719c4d0",
-    "url": "/OLimpBit/static/css/main.39484e08.chunk.css"
+    "revision": "87cd3a72fcc61b097256",
+    "url": "/OLimpBit/static/css/main.96073d31.chunk.css"
   },
   {
-    "revision": "146b6be1440d2719c4d0",
-    "url": "/OLimpBit/static/js/main.146b6be1.chunk.js"
+    "revision": "87cd3a72fcc61b097256",
+    "url": "/OLimpBit/static/js/main.87cd3a72.chunk.js"
   },
   {
-    "revision": "091eecb54b268843d9d7",
-    "url": "/OLimpBit/static/js/1.091eecb5.chunk.js"
+    "revision": "630f8e16ea9148bcd36e",
+    "url": "/OLimpBit/static/js/1.630f8e16.chunk.js"
   },
   {
     "revision": "97fd4b95f43aee115131",
@@ -24,16 +24,16 @@ self.__precacheManifest = [
     "url": "/OLimpBit/static/media/Minesweeper.e269fccd.svg"
   },
   {
-    "revision": "bbf99ab7ff61a0abc5f59729a69559bd",
-    "url": "/OLimpBit/static/media/CollapseButton.bbf99ab7.svg"
-  },
-  {
     "revision": "db8ed3a9bffebf0e422f59580894f149",
     "url": "/OLimpBit/static/media/SwitchOffButton.db8ed3a9.svg"
   },
   {
     "revision": "183ea5b66b5ecf2dc42c0ff76890cb35",
     "url": "/OLimpBit/static/media/UslessButton.183ea5b6.svg"
+  },
+  {
+    "revision": "bbf99ab7ff61a0abc5f59729a69559bd",
+    "url": "/OLimpBit/static/media/CollapseButton.bbf99ab7.svg"
   },
   {
     "revision": "72d13424d99921a3af67d8a29da53d73",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/OLimpBit/static/media/Paint.d387500a.svg"
   },
   {
-    "revision": "6db25438dce728fe83ec5f2489a53ab4",
+    "revision": "7f4aea9197bc943e2a28f8c0d45a7108",
     "url": "/OLimpBit/index.html"
   }
 ];
