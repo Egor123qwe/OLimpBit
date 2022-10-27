@@ -2,8 +2,8 @@
     min-width: 400px;
     padding: 5px;
     position: absolute;
-    left: 0vw;
-    top: 0vh;
+    left: 0;
+    top: 0;
     background: #C3C3C3;
     box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
     z-index: 9;
@@ -13,12 +13,28 @@
     min-width: 400px;
     padding: 5px;
     position: absolute;
-    left: 0vw;
-    top: 0vh;
+    left: 0;
+    top: 0;
     min-width: 400px;
     background: #C3C3C3;
     box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
     z-index: 1;
+}
+
+
+
+
+
+
+.WindowMobile {
+    width: 95%;
+    padding: 0px;
+    position: relative;
+    left: 0vw;
+    top: 0vh;
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+    z-index: 9;
 }
 
 .WindowMobile {
@@ -49,4 +65,25 @@
 
 .Content {
     grid-area: 'content';
+}
+
+.Window1 {
+    padding: 5px;
+    position: absolute;
+    left: 0vw;
+    top: 0vh;
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+    z-index: 9;
+}
+
+.WindowBlur1 {
+    padding: 5px;
+    position: absolute;
+    left: 0vw;
+    top: 0vh;
+    min-width: 400px;
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+    z-index: 1;
 }

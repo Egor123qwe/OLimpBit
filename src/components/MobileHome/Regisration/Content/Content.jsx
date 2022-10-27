@@ -1,7 +1,9 @@
 import React from 'react'
 import s from './Content.module.css'
 import { useFormik } from 'formik';
-import { lengthControl } from '../../../../Utils/TextAreaUtils';
+import { lengthControl, StageControl } from '../../../../Utils/TextAreaUtils';
+import University from '../../../../BLL/Uniniversity.json'
+import axios from "axios";
 
 const validate = values => {
     const errors = {};
@@ -14,13 +16,17 @@ const validate = values => {
     if (GenerallengthControl(values.Email)) { errors.Email = GenerallengthControl(values.Email) }
     if (GenerallengthControl(values.University)) { errors.University = GenerallengthControl(values.University) }
     if (GenerallengthControl(values.Stage)) { errors.Stage = GenerallengthControl(values.Stage) }
+    if (StageControl(values.Stage)) { errors.Stage = StageControl(values.Stage) }
     if (GenerallengthControl(values.Telephone)) { errors.Telephone = GenerallengthControl(values.Telephone) }
+
   
     return errors;
 };
 
 
 function Content() {
+
+    let UniversityEl = University.map((el) => <option value={el.name} label={el.name}>{el.name}</option>)
 
     const formik = useFormik({
         initialValues: {
@@ -41,8 +47,18 @@ function Content() {
         },
         validate,
         onSubmit: (values) => {
-            console.log(values)
-        },
+            axios.post("https://bit-cup.bsuir.by/", values, {
+            headers: {
+                "Content-type": "application/json; charset=UTF-8",
+                
+            } })
+             .then(function (response) {
+               console.log(response);
+             })
+             .catch(function (error) {
+               console.log(error);
+             });
+        }
     });
 
     return (
@@ -71,8 +87,17 @@ function Content() {
                             {formik.errors.Telephone && formik.touched.Telephone  ? <div className={s.errorMessage}>{formik.errors.Telephone}</div> : null}
                         </div>
                         <div className={s.Line}>
-                            <div className={s.InputName}>Уч. заведение</div><input className={s.input} id='University' type="University" onChange={formik.handleChange} value={formik.values.University}></input>
-                            {formik.errors.University && formik.touched.University  ? <div className={s.errorMessage}>{formik.errors.University}</div> : null}
+                        <span className={s.InputName}>Уч. заведение</span>
+                            <select  className={s.input} id='University' type="University"
+                                value={formik.values.University}
+                                onChange={formik.handleChange}
+                                onBlur={formik.handleBlur} >
+                                <option value="" label="Выберете уч. заведение">
+                                    Выберете учебное заведение{""}
+                                </option>
+                                { UniversityEl }
+                            </select>
+                            {(formik.errors.University && formik.touched.University)  ? <div className={s.errorMessage}>{formik.errors.University}</div> : null}
                         </div>
                         <div className={s.Line2}>
                             <div className={s.InputName1}>Курс</div><input className={s.input3} id='Stage' type="Stage" onChange={formik.handleChange} value={formik.values.Stage}></input>

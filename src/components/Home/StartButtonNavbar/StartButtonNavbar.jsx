@@ -32,6 +32,19 @@ const StartButtonNavbar = (props) => {
         }
     }
 
+    function onPlay(el) {
+        if(CoosingFirstItem === el) {
+                let copy = [...props.SelectedItem]
+                copy[4] = 1;
+                props.SetSelectedItem(copy);
+                props.SetMainEl(4)
+                props.SetStartOpen(false)
+        }
+        else {
+            SetCoosingFirstItem(el)
+        }
+    }
+
     function onChooseSecond(el) {
         if(CoosingSecondItem === el) {
                 let copy = [...props.SelectedItem]
@@ -52,7 +65,7 @@ const StartButtonNavbar = (props) => {
                 <span className={ CoosingFirstItem === 1 ? s.TextCoosing : s.Text }>Program</span>
                 <img className={s.FirstIconsTurn} src={Turn}/>
             </div>
-            <div onClick={() => onChooseFirst(2)} className={CoosingFirstItem === 2 ? s.FirstIconsCoosing : s.FirstIcons}>
+            <div onClick={() => onPlay(2)} className={CoosingFirstItem === 2 ? s.FirstIconsCoosing : s.FirstIcons}>
                 <img className={s.FirstIconsImage} src={Minesweeper}/>
                 <span className={ CoosingFirstItem === 2 ? s.TextCoosing : s.Text }>Minesweeper</span>
             </div>
@@ -87,7 +100,7 @@ const StartButtonNavbar = (props) => {
                         <span className={ CoosingSecondItem === 3 ? s.Text2Coosing : s.Text2 }>Notepad</span>
                     </div>
                 </div>
-             : <></>}
+             : null}
         </div>
     );
 }

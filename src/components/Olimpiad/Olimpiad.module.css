@@ -10,3 +10,29 @@
     padding: 3px;
     box-shadow: inset -2px -4px 0px #7E7E7E, inset 2px 2px 0px #F0F0F0;
 }
+
+.OlimpiadMobile {
+    background-color: #C3C3C3;
+    display: grid;
+    grid-template-areas: 
+    "content"
+    "Footer";
+    grid-template-rows: 84vh 5vh;
+    grid-template-columns: 100%;
+    grid-column-gap: 15px;
+    padding: 0px;
+    box-shadow: inset -2px -4px 0px #7E7E7E, inset 2px 2px 0px #F0F0F0;
+}
+
+.OlimpiadMobile1 {
+    background-color: #C3C3C3;
+    display: grid;
+    grid-template-areas: 
+    "content"
+    "Footer";
+    grid-template-rows: 81vh 8vh;
+    grid-template-columns: 100%;
+    grid-column-gap: 15px;
+    padding: 0px;
+    box-shadow: inset -2px -4px 0px #7E7E7E, inset 2px 2px 0px #F0F0F0;
+}

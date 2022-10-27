@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/BIT-CUP-OlimpSovet/precache-manifest.ef87fc73d97976c8af30c67b90280384.js"
+  "/OLimpBit/precache-manifest.d3e53f84a8eb1485e46b9620d6752bd7.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/BIT-CUP-OlimpSovet/index.html", {
+workbox.routing.registerNavigationRoute("/OLimpBit/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });

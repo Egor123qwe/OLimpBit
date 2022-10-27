@@ -79,7 +79,7 @@
 .input2 {
     min-width: 100px;
     width: 35%;
-    height: 2.5vh;
+    height: 3.7vh;
     background: #FFFFFF;
     box-shadow: inset 2px 2px 0px #262626, inset -2px -2px 0px #F0F0F0, inset 4px 4px 0px #7E7E7E;
     border: none;
@@ -99,6 +99,10 @@
     font-size: 1.7vh;
     padding: 5px;
     padding-left: 10px;
+}
+
+.option {
+    font-size: 1.7vh;
 }
 
 .lable {

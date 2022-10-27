@@ -22,6 +22,11 @@
     box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E, inset 2px 2px 0px #B1B1B1;
 }
 
+.StartButton:active {
+    padding: -2px;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -4px -4px 0px #7E7E7E;
+}
+
 .WindowsLogo {
     padding: 5%;
     position: absolute;
@@ -34,35 +39,45 @@
     font-family: 'Pixsel2', arial;
     font-size: 2.5vh;
     position: absolute;
-    bottom: 0.5vh;
+    bottom: 20%;
+    left: 45%;
 }
 
 .AddInfo {
     position: absolute;
     bottom: 6px;
     right: 6px;
-    width: 25vh;
+    width: 27vh;
     height: 80%;
     background: #C3C3C3;
     box-shadow: inset 2px 2px 0px #262626, inset -2px -2px 0px #F0F0F0, inset 4px 4px 0px #7E7E7E;
 }
 
 .BsuirLogo {
-    position: relative;
-    padding: 5%;
+    position: absolute;
+    top: 25%;
+    left: 5px;
     height: 55%;
 }
 
+.Vk {
+    position: absolute;
+    top: 20%;
+    left: 42%;
+    height: 60%;
+}
+
 .KsisLogo {
+    top: 15%;
+    left: 23%;
     height: 75%;
     position: relative;
-    bottom: 15%;
 }
 
 .Years {
     font-family: 'Pixsel', arial;
     font-size: 2.2vh;
-    position: relative;
-    padding-left: 5%;
-    bottom: 35%;
+    position: absolute;
+    top: 15%;
+    right: 5%;
 }

@@ -7,7 +7,7 @@ const Header = (props) => {
     const navigte = useNavigate();
 
     const OnSwitchOffButton = () => {
-        if(props.Id !== -1) {
+        if(props.Id !== -1 && props.Id !== -2) {
             let copy = [...props.SelectedItem];
             copy[props.Id] = 0;
             props.SetSelectedItem(copy);
@@ -26,23 +26,23 @@ const Header = (props) => {
     }
 
     return (
-        <div className={s.Header}>
+        <div onMouseMove = {(event) => props.move(event)} onMouseDown = {(event) => props.drag(event)} className={s.Header}>
 
             <div className={props.class ? s.MainHeader : s.BlurMainHeader }>
                 <div className={s.WindowInfo}>
                     <img src={ props.WindowIcon }/>
                     <span className={s.Lable}>{props.WindowName}</span>
                 </div>
-                <div className={ props.Id !== -1 ? s.ButtonPack : s.ButtonPackMini }>
-                    { props.MainButtons[0] ? 
+                <div className={ props.Id !== -1 && props.Id !== -2 ? s.ButtonPack : s.ButtonPackMini }>
+                    { props.MainButtons[0] && props.Id !== -2 ? 
                     <button className={ s.CollapseButton } onClick={ () => {OnSwitchOffButton()} }></button>
-                    : <></> }
-                    { props.MainButtons[1] ?     
+                    : null }
+                    { props.MainButtons[1] && props.Id !== -2 ?     
                     <button onClick={ () => {OnCollapseButton()} } className={ props.MainButtons[1] == 1 ? s.ExpandButton : s.ExpandButtonUseful }></button>
-                    : <></> }
+                    : null }
                     { props.MainButtons[2] ?
                     <button className={ s.SwitchOffButton } onClick={ () => {OnSwitchOffButton()} }></button>
-                    : <></> } 
+                    : null } 
                 </div>
             </div>
 

@@ -4,6 +4,7 @@
 }
 
 .Image img {
+    position: relative;
     padding: 5px;
     height: 20%;
 }

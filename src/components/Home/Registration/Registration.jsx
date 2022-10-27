@@ -10,7 +10,7 @@ const Registration = (props) => {
 
     return (
         <div onClick={props.onClick}>
-            <Window Top={"10%"} Left={"30%"} className={props.className} ColapsItem={ props.ColapsItem } Id={props.Id} SelectedItem={ props.SelectedItem } SetSelectedItem={ props.SetSelectedItem } 
+            <Window Top={"3%"} Left={"30%"} className={props.className} ColapsItem={ props.ColapsItem } Id={props.Id} SelectedItem={ props.SelectedItem } SetSelectedItem={ props.SetSelectedItem } 
             ContentComponent = { <div>{ <Content SelectedItem={ props.SelectedItem } SetSelectedItem={ props.SetSelectedItem }  /> }</div> } 
             WindowName={'Регистрация'} MainButtons={[1, 2, 1]} WindowIcon={Calculator}
             width = {"35%"}

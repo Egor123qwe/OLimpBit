@@ -1,4 +1,5 @@
 .Navbar {
+    position: relative;
     padding: 1.5%;
     width: 120px;
 }
@@ -7,6 +8,31 @@
     text-decoration: none;
 }
 
+.Registr {
+    padding: 1.5%;
+    position: absolute;
+    top: 110px;
+    left: 130px;
+}
+
+.Kubok {
+    padding: 1.5%;
+    position: absolute;
+    top: 9px;
+    left: 115px;
+    width: 100px;
+}
+
+.Kubok img {
+    width: 45%;
+}
+
+.Bin {
+    padding: 1.5%;
+    position: absolute;
+    bottom: 6vh;
+    right: 5px;
+}
 
 .Image {
     text-align: center;

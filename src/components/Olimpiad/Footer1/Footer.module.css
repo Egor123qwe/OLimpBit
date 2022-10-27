@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Pixsel2';  
+    src: url('../../../FontStyls/MainStyle.ttf') format("truetype");
+    font-style: normal;
+}
+
+a {
+    color: black
+}
+
+.Footer {
+    padding: 2%;
+    grid-area: Footer;
+    display: grid;
+    grid-template-areas: 
+    "Button1";
+    grid-template-columns: 100%;
+    grid-row-gap: 3px;
+}
+
+.Button1 {
+    position: relative;
+    font-family: 'Pixsel', arial;
+    grid-area: Button1;
+    font-size: 3vh;
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}
+
+.Button1:active {
+    padding: 1.6%;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -4px -4px 0px #7E7E7E;
+}
+
+
+.lable {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}

@@ -1,7 +1,7 @@
 .MobileHome {
     padding: 1% 1% 1% 1%;
-    width: 100%;
-    height: 100%;
+    width: 98%;
+    height: 97%;
     position: absolute;
     background: #C3C3C3;
     display: grid;
@@ -10,11 +10,12 @@
     "Content"
     "SponsorLable"
     "SponsorsKit"
-    "Registration"
+    "Footer2"
     "Footer";
     grid-template-columns: 100%;
     grid-template-rows: 30% 20% 10% 20% 10% 10%;
     font-family: 'Pixsel', arial;
+    grid-row-gap: 3px;
 }
 
 
@@ -22,32 +23,74 @@
     display: grid;
     grid-template-areas: 
     "About Logo";
-    grid-template-columns: 25% 75%;
+    grid-template-columns: 20% 79%;
     grid-template-rows: 100%;
+    grid-column-gap: 1%;
 }
+
 .AboutOlimpiad {
-    position: relative;
     font-size: 2.5vw;
     grid-area: "About";
+    background: #C3C3C3;
+    display: grid;
+    grid-template-areas: 
+    "InfoAbout"
+    "Stag"
+    "Wins"
+    "Saper";
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-column-gap: 0px;
+    grid-row-gap: 3px;
+}
+
+.InfoAbout {
+    padding: 3px;
+    position: relative;
+    grid-area: "InfoAbout";
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}
+
+.Stag {
+    position: relative;
+    grid-area: "Stag";
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}
+.Wins {
+    padding: 3px;
+    position: relative;
+    grid-area: "Wins";
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}
+
+.Saper {
+    position: relative;
+    grid-area: "Saper";
     background: #C3C3C3;
     box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
 }
 
 .AboutOlimpiad img {
+    height: 55%;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%); 
 }
 
 .AboutOlimpiadLable {
+    font-size: 2vw;
     position: absolute;
     bottom: 3px;
     left: 0.8vw;
 }
 
 .Logo {
+    height: 102%;
     position: relative;
     grid-area: "Logo";
     color: #FFFFFF;
@@ -85,7 +128,7 @@
     grid-template-areas: 
     "Way1 Way2"
     "Way3 Way4";
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 51.3% 51.3%;
     grid-template-rows: 50% 50%;
     grid-column-gap: 2%;
     grid-row-gap: 2%;
@@ -116,19 +159,78 @@
 }
 
 .WayLable {
-    font-size: 3vw;
+    width: 80%;
+    font-size: 2vw;
     position: absolute;
     bottom: 3px;
     left: 0.8vw;
 }
+
+
+
+
+
 .Diaractions {
-    background-color: cadetblue;
+    position: relative;
+    padding-top: 1.5%;
     grid-area: "Diaractions";
-    background: url('../../Images/Navbar1/DirBack.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: #FFFFFF;
     position: relative;
+    display: grid;
+    grid-template-areas: 
+    "Diaractions2"
+    "Ways1";
+    grid-template-rows: 50% 50%;
+}
+
+.Ways1 {
+    display: grid;
+    grid-template-areas: 
+    "Way5 Way6";
+}
+
+.Way5 {
+    color: #262626;
+    position: relative;
+    grid-area: "Way2";
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}
+
+.Way6 {
+    color: #262626;
+    position: relative;
+    grid-area: "Way2";
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}
+
+.Way5:active {
+    padding-top: 8px;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -4px -4px 0px #7E7E7E;
+}
+
+.Way6:active {
+    padding-top: 8px;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -4px -4px 0px #7E7E7E;
+}
+
+
+
+.Diaractions2 {
+    grid-area: "Diaractions2";
+    background: #C3C3C3;
+    position: relative;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+    width: 100%;
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+    url('../../Images/Art.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .DiaractionsLable {
@@ -146,14 +248,24 @@
     font-size: 3vh;
     grid-area: "SponsorLable";
     background: #C3C3C3;
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url('../../Images/Art2.png');
+    background-repeat: no-repeat;
+    background-size: 95% 95%;
+    background-size: cover;
 }
 
 .SponsorL {
+    color: #F0F0F0;
     position: absolute;
     top: 50%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%); 
+    
 }
 
 .SponsorsKit {
@@ -163,92 +275,235 @@
     grid-template-areas: 
     "Sponsor1 Sponsor2"
     "Sponsor3 Sponsor4";
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 50.5% 50.5%;
     grid-template-rows: 50% 50%;
     grid-column-gap: 1%;
     grid-row-gap: 1%;
     padding-bottom: 1%;
 }
 
-.SponsorsKit img {
-    height: 7vh;
-}
 .Sponsor1 {
-    padding: 1vh;
-    padding-left: 3vh;
+    position: relative;
     grid-area: "Sponsor1";
     background: #C3C3C3;
     box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
 }
 .Sponsor2 {
-    padding: 1vh;
-    padding-left: 3vh;
+    position: relative;
     grid-area: "Sponsor2";
     background: #C3C3C3;
     box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
 }
 .Sponsor3 {
-    padding: 1vh;
-    padding-left: 3vh;
+    position: relative;
     grid-area: "Sponsor3";
     background: #C3C3C3;
     box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
 }
 .Sponsor4 {
-    padding: 1vh;
-    padding-left: 3vh;
+    position: relative;
     grid-area: "Sponsor4";
     background: #C3C3C3;
     box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
 }
 
+.Sponsor1 img {
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
 
+.Sponsor2 img {
+    height: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.Sponsor3 img {
+    height: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.Sponsor4 img {
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
 
-.Registration {
+.Footer2 {
     grid-area: "Registration";
     text-decoration: none;
     color:#262626;
-    background: #C3C3C3;
-    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
     font-size: 2.6vh;;
     font-family: 'Pixsel', arial;
+    display: grid;
+    grid-template-areas: 
+    "Registration";
+    grid-template-columns: 99.9%;
+    grid-column-gap: 1%;
 }
 
-.Registration:active {
-    padding: 8px;
-    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -4px -4px 0px #7E7E7E;
-    font-family: 'Pixsel', arial;
+.Registration {
+    position: relative;
+    grid-area: "Registration";
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+}
+.RegistrationL {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+}
+.KsisLogo {
+    grid-area: "Ksis";
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+    background-image: url('../../Images/KsisLogo.png');
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .Footer {
     grid-area: "Footer";
     background: #C3C3C3;
-    padding-top: 1%;
+    display: grid;
+    grid-template-areas: 
+    "Debag Vk KsisLogo BSUIRLogo";
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-column-gap: 1.2%;
 }
 
-.Years {
-    font-size: 2.7vh;
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
-}
-.KsisLogo {
-    display: inline-block;
-    width: 7vh;
-    height: 7vh;
+.Winers {
+    position: relative;
+    grid-area: "Winers";
     background: #C3C3C3;
     box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
-    background-image: url('../../Images/KsisLogo.png');
+}
+.WinersL {
+    position: absolute;
+    font-size: 6vw;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+}
+
+.InfoAbout:active {
+    padding: 8px;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -4px -4px 0px #7E7E7E;
+}
+
+.Stag:active {
+    padding: 8px;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -4px -4px 0px #7E7E7E;
+}
+
+.Registration:active {
+    padding: 8px;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -4px -4px 0px #7E7E7E;
+}
+
+.BSUIRLogo:active {
+    padding: 8px;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -4px -4px 0px #7E7E7E;
+}
+
+.Vk:active {
+    padding: 8px;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -4px -4px 0px #7E7E7E;
+}
+
+.KsisLogo:active {
+    padding: 8px;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -4px -4px 0px #7E7E7E;
+}
+
+
+
+.Sponsor1:active {
+    padding-top: 8px;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -4px -4px 0px #7E7E7E;
+}
+
+.Sponsor2:active {
+    padding-top: 8px;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -4px -4px 0px #7E7E7E;
+}
+
+.Sponsor3:active {
+    padding-top: 8px;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -4px -4px 0px #7E7E7E;
+}
+
+.Sponsor4:active {
+    padding-top: 8px;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -4px -4px 0px #7E7E7E;
+}
+
+
+
+.Way1:active {
+    padding-top: 8px;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -4px -4px 0px #7E7E7E;
+}
+
+.Way2:active {
+    padding-top: 8px;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -4px -4px 0px #7E7E7E;
+}
+
+.Way3:active {
+    padding-top: 8px;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -4px -4px 0px #7E7E7E;
+}
+
+.Way4:active {
+    padding-top: 8px;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -4px -4px 0px #7E7E7E;
+}
+
+
+
+.Vk {
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+    background-image: url('../../Images/Vk.png');
     background-repeat: no-repeat;
-    background-size: 80% 80%;
     background-position: center center;
 }
+
 .BSUIRLogo {
-    position: relative;
-    left: 1%;
-    display: inline-block;
-    width: 7vh;
-    height: 7vh;
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+    background-image: url('../../Images/BsuirLogo.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+
+
+.Debag {
+    background: #C3C3C3;
+    box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
+    background-image: url('../../Images/bug.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.BSUIRLogo {
     background: #C3C3C3;
     box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
     background-image: url('../../Images/BsuirLogo.png');

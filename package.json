@@ -2,7 +2,7 @@
   "name": "proj",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://egor123qwe.github.io/BIT-CUP-OlimpSovet/",
+  "homepage": "https://egor123qwe.github.io/OLimpBit/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
