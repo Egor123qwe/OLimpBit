@@ -1,5 +1,9 @@
 .App {
   background-color: #008282;
+  background-image: url('./Images/BackImg.png');
+  background-repeat: no-repeat;
+  background-size: 25%;
+  background-position: center;
   min-height: 100vh;
 }
 

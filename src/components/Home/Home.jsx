@@ -16,7 +16,7 @@ const Home = (props) => {
 
     let [isStartOpen, SetStartOpen] = useState(false);
 
-    let [SelectedItem, SetSelectedItem] = useState([0,0,0,0,0,0]);
+    let [SelectedItem, SetSelectedItem] = useState([0,0,1,0,0,0]);
     let [ColapsItem, SetColapsItem] = useState([0,1,1,1,1,0]);
     let [MainEl, SetMainEl] = useState(-1);
 

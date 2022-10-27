@@ -1,6 +1,6 @@
 import React from 'react'
 import s from "./MobileHome.module.css"
-import ImageLogo from '../../Images/WindowsLogo.png'
+import ImageLogo from '../../Images/BitCupLogo.png'
 import Yandex from '../../Images/Yandex.png'
 import LeverX from '../../Images/LeverX1.png'
 import SoftTeco from '../../Images/softTeco.png'
@@ -37,10 +37,7 @@ const MobileHome = (props) => {
                     </div>
                 </div>
                 <div className={s.Logo}>
-                    <div className={s.LogoPart}>
                         <img src={ ImageLogo }/>
-                        <div>Типа лого биткапа</div>
-                    </div>
                 </div>
             </div>
             <div className={s.Content}>

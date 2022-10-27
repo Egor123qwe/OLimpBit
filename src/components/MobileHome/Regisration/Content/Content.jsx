@@ -64,6 +64,7 @@ function Content() {
     return (
         
             <form className={s.Content} onSubmit={formik.handleSubmit}>
+                <div className={s.Mainblock}>
                     <div className={s.lable}>Регистрация</div>
                     <div className={s.InputBox}>
                         <div className={s.Line}><div className={s.InputName}>Фамилия</div>
@@ -138,6 +139,7 @@ function Content() {
                     <div className={s.Line}>
                         <button type="submit" className={s.button}>Подать заявку</button>
                     </div>
+                </div>
             </form>
     );
 }

@@ -5,6 +5,11 @@
     padding: 10px;
     font-family: 'Pixsel', arial;
     height: 86vh;
+    overflow: auto;
+}
+
+.Mainblock {
+    overflow: auto;
 }
 
 .InputBox {

@@ -62,8 +62,17 @@ function Content() {
     return (
         
             <form className={s.Content} onSubmit={formik.handleSubmit}>
+                <div className={s.MainBlock}>
                     <div className={s.lable}>Регистрация</div>
                     <div className={s.InputBox}>
+                        <div className={s.Line}><span className={s.InputName}>Пароль</span>
+                            <input className={s.input} id='FirsName' type="FirsName" onChange={formik.handleChange} value={formik.values.FirsName}></input>
+                            {formik.errors.FirsName && formik.touched.FirsName ? <div className={s.errorMessage}>{formik.errors.FirsName}</div> : null}
+                        </div>
+                        <div className={s.Line}><span className={s.InputName}>Подтвердить пароль</span>
+                            <input className={s.input} id='Name' type="Name" onChange={formik.handleChange} value={formik.values.Name}></input>
+                            {formik.errors.Name && formik.touched.Name  ? <div className={s.errorMessage}>{formik.errors.Name}</div> : null}
+                        </div>
                         <div className={s.Line}><span className={s.InputName}>Фамилия</span>
                             <input className={s.input} id='FirsName' type="FirsName" onChange={formik.handleChange} value={formik.values.FirsName}></input>
                             {formik.errors.FirsName && formik.touched.FirsName ? <div className={s.errorMessage}>{formik.errors.FirsName}</div> : null}
@@ -148,6 +157,7 @@ function Content() {
                         </div>
                     </div>
                     <button type="submit" className={s.button}>Подать заявку</button>
+                </div>
             </form>
     );
 }

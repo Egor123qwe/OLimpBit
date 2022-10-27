@@ -5,6 +5,12 @@
     font-family: 'Pixsel', arial;
 }
 
+.MainBlock {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 60vh;
+}
+
 .InputBox {
     padding-top: 0.5vh;
     padding-bottom: 1vh;
@@ -110,11 +116,13 @@
 }
 
 .button {
+    margin-top: 10px;
+    margin-bottom: 10px;
     position: relative;
     font-family: 'Pixsel', arial;
     outline: none;
     text-decoration: none;
-    right: -70%;
+    left: 40%;
     top: 3%;
     height: 4vh;
     width: 20%;
