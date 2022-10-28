@@ -16,8 +16,8 @@ const Home = (props) => {
 
     let [isStartOpen, SetStartOpen] = useState(false);
 
-    let [SelectedItem, SetSelectedItem] = useState([0,0,1,0,0,0]);
-    let [ColapsItem, SetColapsItem] = useState([0,1,1,1,1,0]);
+    let [SelectedItem, SetSelectedItem] = useState([0,0,0,0,0,0,0]);
+    let [ColapsItem, SetColapsItem] = useState([0,1,1,1,1,0,1]);
     let [MainEl, SetMainEl] = useState(-1);
 
     return (
@@ -34,9 +34,11 @@ const Home = (props) => {
                 className={MainEl === 1 ? 1 : 0 } ColapsItem={ ColapsItem } Id={1} SelectedItem={ SelectedItem } 
                 SetSelectedItem={ SetSelectedItem } Text={'Warning: Объект переполнен...'}/> : null }
 
-            { SelectedItem[2] === 1 ? <Registration onClick={ () => { SetMainEl(2) } }
-                className={MainEl === 2 ? 1 : 0 } ColapsItem={ ColapsItem } Id={2} SelectedItem={ SelectedItem } 
-                SetSelectedItem={ SetSelectedItem } /> : null }
+            { SelectedItem[2] === 1 ? <Registration
+                SetMainEl={ SetMainEl } SetStartOpen={SetStartOpen} 
+                SelectedItem={ SelectedItem } SetSelectedItem={ SetSelectedItem }
+                onClick={ () => { SetMainEl(2) } }
+                className={MainEl === 2 ? 1 : 0 } ColapsItem={ ColapsItem } Id={2}/> : null }
 
             { SelectedItem[3] === 1 ? <Error onClick={ () => { SetMainEl(3) } }
                 className={MainEl === 3 ? 1 : 0 } ColapsItem={ ColapsItem } Id={3} SelectedItem={ SelectedItem } 
@@ -49,6 +51,10 @@ const Home = (props) => {
             { SelectedItem[5] === 1 ? <Winners onClick={ () => { SetMainEl(5) } }
                 className={MainEl === 5 ? 1 : 0 } SetColapsItem = { SetColapsItem }  ColapsItem={ ColapsItem } Id={5} SelectedItem={ SelectedItem } 
                 SetSelectedItem={ SetSelectedItem } /> : null }
+
+            { SelectedItem[6] === 1 ? <Error onClick={ () => { SetMainEl(6) } }
+                className={MainEl === 6 ? 1 : 0 } ColapsItem={ ColapsItem } Id={6} SelectedItem={ SelectedItem } 
+                SetSelectedItem={ SetSelectedItem } Text={'Error: Данные не прошли валидацию...'}/> : null }
 
             {isStartOpen ? <div className={ s.FirstMenu }><StartButtonNavbar SetStartOpen={ SetStartOpen } 
                 SelectedItem={ SelectedItem } SetSelectedItem={ SetSelectedItem } MainEl = { MainEl } 

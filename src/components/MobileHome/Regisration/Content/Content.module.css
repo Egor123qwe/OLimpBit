@@ -62,6 +62,56 @@
     padding-left: 10px;
 }
 
+.inputErr {
+    min-width: 70%;
+    width: 90%;
+    height: 5%;
+    background: #FFFFFF;
+    box-shadow: inset 2px 2px 0px #262626, inset -2px -2px 0px #F0F0F0, inset 4px 4px 0px #7E7E7E;
+    border: none;
+    font-family: 'Pixsel', arial;
+    font-size: 1.7vh;
+    padding: 5px;
+    padding-left: 10px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color:orangered;
+}
+
+.inputErr2 {
+    min-width: 100px;
+    width: 35%;
+    height: 2.5vh;
+    background: #FFFFFF;
+    box-shadow: inset 2px 2px 0px #262626, inset -2px -2px 0px #F0F0F0, inset 4px 4px 0px #7E7E7E;
+    border: none;
+    font-family: 'Pixsel', arial;
+    font-size: 1.7vh;
+    padding: 5px;
+    padding-left: 10px;
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color: orangered;
+}
+
+.inputErr3 {
+    width: 80%;
+    height: 2.5vh;
+    background: #FFFFFF;
+    box-shadow: inset 2px 2px 0px #262626, inset -2px -2px 0px #F0F0F0, inset 4px 4px 0px #7E7E7E;
+    border: none;
+    font-family: 'Pixsel', arial;
+    font-size: 1.7vh;
+    padding: 5px;
+    padding-left: 10px;
+    
+    border-style: solid;
+    border-width: 2px;
+    border-color:orangered;
+}
+
 .InputName {
     font-size: 100%;
 }
@@ -108,14 +158,15 @@
 }
 
 .button {
-    position: absolute;
+    margin-top: 10px;
+    position: relative;
     bottom: 10px;
     font-family: 'Pixsel', arial;
     outline: none;
     text-decoration: none;
     color: #262626;
     height: 4vh;
-    width: 95%;
+    width: 100%;
     min-width: 110px;
     background: #C3C3C3;
     box-shadow: inset -2px -2px 0px #262626, inset 2px 2px 0px #F0F0F0, inset -4px -4px 0px #7E7E7E;
