@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "ab2058303baa47218db1",
-    "url": "/OLimpBit/static/css/main.0b69b800.chunk.css"
+    "revision": "2b8c84604f53d9f31c79",
+    "url": "/OLimpBit/static/css/main.9ab1e2fe.chunk.css"
   },
   {
-    "revision": "ab2058303baa47218db1",
-    "url": "/OLimpBit/static/js/main.ab205830.chunk.js"
+    "revision": "2b8c84604f53d9f31c79",
+    "url": "/OLimpBit/static/js/main.2b8c8460.chunk.js"
   },
   {
-    "revision": "a095584847a21ec8c70d",
-    "url": "/OLimpBit/static/js/1.a0955848.chunk.js"
+    "revision": "478fa38438611bd0c8b9",
+    "url": "/OLimpBit/static/js/1.478fa384.chunk.js"
   },
   {
     "revision": "97fd4b95f43aee115131",
@@ -28,12 +28,12 @@ self.__precacheManifest = [
     "url": "/OLimpBit/static/media/ExpandButton.72d13424.svg"
   },
   {
-    "revision": "bbf99ab7ff61a0abc5f59729a69559bd",
-    "url": "/OLimpBit/static/media/CollapseButton.bbf99ab7.svg"
-  },
-  {
     "revision": "183ea5b66b5ecf2dc42c0ff76890cb35",
     "url": "/OLimpBit/static/media/UslessButton.183ea5b6.svg"
+  },
+  {
+    "revision": "bbf99ab7ff61a0abc5f59729a69559bd",
+    "url": "/OLimpBit/static/media/CollapseButton.bbf99ab7.svg"
   },
   {
     "revision": "db8ed3a9bffebf0e422f59580894f149",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/OLimpBit/static/media/Paint.d387500a.svg"
   },
   {
-    "revision": "0c06633eb94062e04c41ef3856da4a79",
+    "revision": "39abeb00f69db6ba2afc1374705d0541",
     "url": "/OLimpBit/index.html"
   }
 ];
