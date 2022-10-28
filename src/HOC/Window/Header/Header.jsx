@@ -26,7 +26,7 @@ const Header = (props) => {
     }
 
     return (
-        <div onMouseMove = {(event) => props.move(event)} onMouseDown = {(event) => props.drag(event)} className={s.Header}>
+        <div className={s.Header}>
 
             <div className={props.class ? s.MainHeader : s.BlurMainHeader }>
                 <div className={s.WindowInfo}>

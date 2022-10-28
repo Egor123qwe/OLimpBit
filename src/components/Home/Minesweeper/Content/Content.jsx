@@ -231,8 +231,8 @@ function Content(props) {
             </div>
             <div className={s.Panel}>
                 <div className={s.PanelIns}>
-                    <div className={s.Kopat} onClick={() => SetInstrument(1)}><span className={s.lable1}>1</span></div>
-                    <div className={s.flag} onClick={() => SetInstrument(0)}></div>
+                    <div className={!Instrument ? s.Kopat : s.Kopat1} onClick={() => SetInstrument(1)}><span className={s.lable1}>1</span></div>
+                    <div className={Instrument ? s.flag : s.flag1} onClick={() => SetInstrument(0)}></div>
                 </div>
                 <button className={s.button} onClick={() => { restart() }}>Restart game</button>
             </div>

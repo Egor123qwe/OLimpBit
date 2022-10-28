@@ -1,49 +1,14 @@
 import React, { useState } from 'react'
 import s from './Content.module.css'
 import WinnersBlock from './WinnersBlock/WinnersBlock';
-import Data1 from '../../../../BLL/Winners.json'
+import Data from '../../../../BLL/Winners.json'
 
 function Content(props) {
-
-    let Data = [
-        [
-            [
-                ['Скала Джонсон Автомобиль', 'БГУИР'], 
-                ['Жак Фреско СПИПов', 'БГУИР'],
-                ['Какой-то ИиТПшник КСИС', 'БГУИР']
-            ],
-        ],
-
-        [
-            [
-                ['Genii Progi OH', 'БГУ'], 
-                ['SMTH IN THE', 'БГУ'],
-                ['Сколько ещё верстать?', 'БГУ']
-            ],
-        ],
-
-        [
-            [
-                ['Лень придумывать Имя', 'Не БНТУ'], 
-                ['Трухан Егор Валерьевич', 'Не БНТУ'],
-                ['Это я сверху', 'Не БНТУ']
-            ],
-        ],
-
-        [
-            [
-                ['Какойто умный кент', 'Хогварц'], 
-                ['Этот тоже не глупый', 'Хогварц'],
-                ['НУ вот и всё', 'Хогварц']
-            ],
-        ],
-
-    ];
 
     let [SelectedItem, SetSelectedItem] = useState(0);
 
     let i = -1
-    let YearsEl = Data1.map((el) => {
+    let YearsEl = Data.map((el) => {
         i++;
         let TempPage = i;
         return (<div onClick={ () => {SetSelectedItem(TempPage)} } 
@@ -53,7 +18,7 @@ function Content(props) {
     })
 
     
-    let BlocksEl = Data1.map((el) => {
+    let BlocksEl = Data.map((el) => {
 
         let WinnersBlockEl = el.competitions.map((el) => {
             return <WinnersBlock TableHead={el.table_heads} Data={el.winners} name={el.name}/>

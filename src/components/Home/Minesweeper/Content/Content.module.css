@@ -41,6 +41,9 @@
     width: 9vh;
     height: 4vh;
 }
+
+
+
 .Kopat {
     left: 0;
     position: absolute;
@@ -68,6 +71,37 @@
     background-size: 80% 80%;
     background-repeat:no-repeat;
 }
+
+
+.Kopat1 {
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Pixsel', arial;
+    width: 4vh;
+    height: 4vh;
+    background: #C3C3C3;
+    border: 1px dashed #C3C3C3;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -4px -4px 0px #7E7E7E;
+    color: #001CF5;
+}
+.flag1 {
+    right: 0;
+    font-family: 'Pixsel', arial;
+    position: absolute;
+    width: 4vh;
+    height: 4vh;
+    background: #C3C3C3;
+    border: 1px dashed #C3C3C3;
+    box-shadow: inset -2px -2px 0px #F0F0F0, inset 2px 2px 0px #262626, inset -4px -4px 0px #7E7E7E;
+    background-image: url('./../../../../Images/Flag.png');
+    background-position: center;
+    background-size: 80% 80%;
+    background-repeat:no-repeat;
+}
+
+
 
 .Panel {
     position: relative;
