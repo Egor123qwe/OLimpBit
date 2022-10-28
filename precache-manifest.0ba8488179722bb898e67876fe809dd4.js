@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e2f4d57e78ac8f9eb282",
+    "revision": "670703f2b9aa7f98220e",
     "url": "/OLimpBit/static/css/main.0fbce2ec.chunk.css"
   },
   {
-    "revision": "e2f4d57e78ac8f9eb282",
-    "url": "/OLimpBit/static/js/main.e2f4d57e.chunk.js"
+    "revision": "670703f2b9aa7f98220e",
+    "url": "/OLimpBit/static/js/main.670703f2.chunk.js"
   },
   {
     "revision": "8a2ff0aaedd26f3ff1e6",
@@ -32,12 +32,12 @@ self.__precacheManifest = [
     "url": "/OLimpBit/static/media/SwitchOffButton.db8ed3a9.svg"
   },
   {
-    "revision": "183ea5b66b5ecf2dc42c0ff76890cb35",
-    "url": "/OLimpBit/static/media/UslessButton.183ea5b6.svg"
-  },
-  {
     "revision": "72d13424d99921a3af67d8a29da53d73",
     "url": "/OLimpBit/static/media/ExpandButton.72d13424.svg"
+  },
+  {
+    "revision": "183ea5b66b5ecf2dc42c0ff76890cb35",
+    "url": "/OLimpBit/static/media/UslessButton.183ea5b6.svg"
   },
   {
     "revision": "2b38b31a60bd6636efeb6e416c0a95ee",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/OLimpBit/static/media/Paint.d387500a.svg"
   },
   {
-    "revision": "b35f68395567885f504057261d747b17",
+    "revision": "8f55ecfee9237edf655e4168d6d22bc2",
     "url": "/OLimpBit/index.html"
   }
 ];

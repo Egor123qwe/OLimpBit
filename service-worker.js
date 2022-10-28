@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/OLimpBit/precache-manifest.db2497848b5284d60235cb265b6b08da.js"
+  "/OLimpBit/precache-manifest.0ba8488179722bb898e67876fe809dd4.js"
 );
 
 workbox.clientsClaim();

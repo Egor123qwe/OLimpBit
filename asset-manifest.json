@@ -1,14 +1,14 @@
 {
   "main.css": "/OLimpBit/static/css/main.0fbce2ec.chunk.css",
-  "main.js": "/OLimpBit/static/js/main.e2f4d57e.chunk.js",
-  "main.js.map": "/OLimpBit/static/js/main.e2f4d57e.chunk.js.map",
+  "main.js": "/OLimpBit/static/js/main.670703f2.chunk.js",
+  "main.js.map": "/OLimpBit/static/js/main.670703f2.chunk.js.map",
   "static/js/1.8a2ff0aa.chunk.js": "/OLimpBit/static/js/1.8a2ff0aa.chunk.js",
   "static/js/1.8a2ff0aa.chunk.js.map": "/OLimpBit/static/js/1.8a2ff0aa.chunk.js.map",
   "runtime~main.js": "/OLimpBit/static/js/runtime~main.97fd4b95.js",
   "runtime~main.js.map": "/OLimpBit/static/js/runtime~main.97fd4b95.js.map",
   "static/media/MobileHome.module.css": "/OLimpBit/static/media/Art.6095ece3.png",
   "static/media/Minesweeper.svg": "/OLimpBit/static/media/Minesweeper.e269fccd.svg",
-  "static/media/Header.module.css": "/OLimpBit/static/media/ExpandButton.72d13424.svg",
+  "static/media/Header.module.css": "/OLimpBit/static/media/UslessButton.183ea5b6.svg",
   "static/media/Footer.module.css": "/OLimpBit/static/media/MainStyle.2b38b31a.ttf",
   "static/media/Kubok.png": "/OLimpBit/static/media/Kubok.abe90541.png",
   "static/media/App.module.css": "/OLimpBit/static/media/BackImg.6e38ce6f.png",
@@ -24,6 +24,6 @@
   "static/media/Paint.svg": "/OLimpBit/static/media/Paint.d387500a.svg",
   "static/css/main.0fbce2ec.chunk.css.map": "/OLimpBit/static/css/main.0fbce2ec.chunk.css.map",
   "index.html": "/OLimpBit/index.html",
-  "precache-manifest.db2497848b5284d60235cb265b6b08da.js": "/OLimpBit/precache-manifest.db2497848b5284d60235cb265b6b08da.js",
+  "precache-manifest.0ba8488179722bb898e67876fe809dd4.js": "/OLimpBit/precache-manifest.0ba8488179722bb898e67876fe809dd4.js",
   "service-worker.js": "/OLimpBit/service-worker.js"
 }
