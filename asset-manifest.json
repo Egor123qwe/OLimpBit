@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/OLimpBit/static/css/main.4a0d8178.css",
-    "main.js": "/OLimpBit/static/js/main.e61b8947.js",
+    "main.css": "/OLimpBit/static/css/main.740534e1.css",
+    "main.js": "/OLimpBit/static/js/main.9706d3dd.js",
     "static/media/MainStyle.ttf": "/OLimpBit/static/media/MainStyle.aa14e7b110864a3c2e08.ttf",
     "static/media/Kubok.png": "/OLimpBit/static/media/Kubok.c5dd8995b27c902c9643.png",
     "static/media/BackImg.png": "/OLimpBit/static/media/BackImg.ea5108948272a626d564.png",
@@ -22,11 +22,11 @@
     "static/media/Calculator.svg": "/OLimpBit/static/media/Calculator.d0eb293f73aeb169d541f401427a878e.svg",
     "index.html": "/OLimpBit/index.html",
     "static/media/Turn.svg": "/OLimpBit/static/media/Turn.58fab3d17d40c4739a6e60e64d2a2e44.svg",
-    "main.4a0d8178.css.map": "/OLimpBit/static/css/main.4a0d8178.css.map",
-    "main.e61b8947.js.map": "/OLimpBit/static/js/main.e61b8947.js.map"
+    "main.740534e1.css.map": "/OLimpBit/static/css/main.740534e1.css.map",
+    "main.9706d3dd.js.map": "/OLimpBit/static/js/main.9706d3dd.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a0d8178.css",
-    "static/js/main.e61b8947.js"
+    "static/css/main.740534e1.css",
+    "static/js/main.9706d3dd.js"
   ]
 }
